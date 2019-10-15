@@ -7,7 +7,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database[0][:movies].length do |index|
+  directors_database[0][:movies].length dos |index|
     puts index[:title]
   end
 end
