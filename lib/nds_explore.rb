@@ -1,7 +1,8 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
-directors_database
+complex_nds = directors_database
+pp complex_nds
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
